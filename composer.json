@@ -1,0 +1,16 @@
+{
+    "name": "muhdroid/wp-clean-migrate",
+    "description": "Wp Clean Migrate WordPress plugin",
+    "type": "wordpress-plugin",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MuhCleanMigrator\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

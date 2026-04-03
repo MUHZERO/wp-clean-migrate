@@ -1,0 +1,15 @@
+/vendor/
+/composer.lock
+/.phpunit.result.cache
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local environment
+*.log
+*.tmp
+*.swp
+*.swo
