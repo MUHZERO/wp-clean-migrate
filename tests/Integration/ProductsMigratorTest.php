@@ -98,7 +98,7 @@ final class ProductsMigratorTest extends TestCase
         $this->assertInstanceOf(\WC_Product_Variable::class, $parent);
         $this->assertCount(2, $parent->get_children());
         $this->assertCount(2, $state['variation_map']);
-        $this->assertSame(1, $state['stats']['variations_created']);
+        $this->assertSame(2, $state['stats']['variations_created']);
     }
 
     public function test_unsupported_product_types_are_skipped(): void

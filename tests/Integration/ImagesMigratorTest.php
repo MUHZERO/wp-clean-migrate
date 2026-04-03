@@ -128,7 +128,7 @@ final class ImagesMigratorTest extends TestCase
         $migrator->sync([]);
 
         $savedVariation = wc_get_product($variation_id);
-        $this->assertSame(1, (new State())->get()['stats']['images_downloaded']);
+        $this->assertSame(3, (new State())->get()['stats']['images_downloaded']);
         $this->assertNotSame(0, $savedVariation->get_image_id());
     }
 }

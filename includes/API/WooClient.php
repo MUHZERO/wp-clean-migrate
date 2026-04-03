@@ -9,7 +9,7 @@ use MuhCleanMigrator\Core\Logger;
 /**
  * Client for the old WooCommerce REST API.
  */
-final class WooClient
+class WooClient
 {
     private const API_VERSION = 'wc/v3';
 
